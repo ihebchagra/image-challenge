@@ -1,0 +1,1 @@
+AlpineWebComponent('custom-button', 'components/button.html');
