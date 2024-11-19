@@ -14,10 +14,9 @@ if (isset($_SERVER['HTTP_HX_REQUEST'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPA Example</title>
     <script src="https://unpkg.com/htmx.org@2.0.3"></script>
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs-web-components/dist/cdn.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script type="module" src="/components/loading-bar.js"></script>
-    <script src="components/load.js"></script>
+    <script defer src="/components/load_components.js"></script>
 </head>
 
 <body>
