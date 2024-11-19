@@ -12,24 +12,21 @@ if (isset($_SERVER['HTTP_HX_REQUEST'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPA Example</title>
-    <script src="https://unpkg.com/htmx.org@2.0.3"></script>
+    <title>Quiz d'Images Par Iheb Chagra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <script defer src="https://unpkg.com/@alpinejs/morph@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <script type="module" src="/components/loading-bar.js"></script>
     <script defer src="/components/load_components.js"></script>
 </head>
 
 <body>
-    <loading-bar></loading-bar>
-    <div>
-        <nav>
-            <button class="nav-button" hx-get="/home" hx-target="#content" hx-push-url="true">Home</button>
-            <button class="nav-button" hx-get="/about" hx-target="#content" hx-push-url="true">About</button>
-        </nav>
-        <div id="content">
-            <?php include "pages/$route.php"; ?>
-        </div>
+    <div id="content">
+        <?php include "pages/$route.php"; ?>
     </div>
+    <site-footer />
 </body>
 
 </html>

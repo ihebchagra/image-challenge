@@ -1,0 +1,39 @@
+{
+    "quizzes": [
+        {
+            "id": 1,
+            "date": "2024-01-01",
+            "image1_url": "https://fakeimg.pl/600x400",
+            "image1_alt": "placeholder",
+            "image2_url": "https://fakeimg.pl/600x400",
+            "image2_alt": "placeholder",
+            "description": "Lorem ipsum dolor sit amet...",
+            "question": "Quel est le diagnostic le plus probable?",
+            "choices": [
+                {
+                    "text": "Mélanome malin",
+                    "correct": true
+                },
+                {
+                    "text": "Carcinome basocellulaire",
+                    "correct": false
+                },
+                {
+                    "text": "Kératose séborrhéique",
+                    "correct": false
+                },
+                {
+                    "text": "Nævus atypique",
+                    "correct": false
+                },
+                {
+                    "text": "Autre",
+                    "correct": false
+                }
+            ],
+            "explanation": "Le mélanome malin présente typiquement...",
+            "source": "Journal of Clinical Oncology, 2023",
+            "source_url": "https://ascopubs.org/journal/jco"
+        }
+    ]
+}

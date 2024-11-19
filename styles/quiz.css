@@ -1,0 +1,36 @@
+/* Typography */
+h1,
+h2,
+p,
+label {
+    font-family: 'EB Garamond', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Headers */
+h1 {
+    font-size: 3rem;
+    line-height: 1;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/* Content */
+p,
+label {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65ch;
+}
+
+/* Remove all styles from Quiz Container to Source a:hover as they are now in the component */
+
+/* Remove footer styles as they are now in the component */
