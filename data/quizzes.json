@@ -2,17 +2,95 @@
     "quizzes": [
         {
             "id": 2,
-            "date": "13 Novembre 2024",
+            "date": "28 Octobre 2024",
             "images": [
                 {
-                    "url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/16/8/full/fig/fig1.png",
-                    "alt": "Lésions cutanées",
+                    "url": "/images/plaque.webp",
+                    "alt": "photo",
+                    "width": 561,
+                    "height": 580
+                }
+            ],
+            "description": "Un patient masculin de 52 ans consulte pour des plaques érythémateuses avec desquamation, rougeur et démangeaisons sur les membres supérieurs depuis 4 ans. Les antécédents médicaux révèlent un diabète et une hypertension. L’examen clinique met en évidence des lésions cutanées bien délimitées, rougeatres, présentant une desquamation blanchâtre, localisées principalement sur les surfaces d’extension des membres supérieurs.",
+            "question": "Quel est le diagnostic le plus probable ?",
+            "choices": [
+                {
+                    "text": "Eczéma",
+                    "correct": false
+                },
+                {
+                    "text": "Psoriasis Vulgaris",
+                    "correct": true
+                },
+                {
+                    "text": "Lichen plan",
+                    "correct": false
+                },
+                {
+                    "text": "Dermatite séborrhéique",
+                    "correct": false
+                },
+                {
+                    "text": "Lupus érythémateux",
+                    "correct": false
+                }
+            ],
+            "explanation": "Les caractéristiques cliniques correspondent typiquement au psoriasis : plaques érythémateuses bien délimitées, desquamation, localisation sur surfaces d’extension, et association à des comorbidités.",
+            "source": "Pan African Medical Journal, 2023",
+            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/11/35/full/"
+        },
+        {
+            "id": 3,
+            "date": "4 Novembre 2024",
+            "images": [
+                {
+                    "url": "/images/skin-tumor.webp",
+                    "alt": "photographe",
+                    "width": 561,
+                    "height": 580
+                }
+            ],
+            "description": "Un homme de 43 ans, consulte à l’hôpital pour une masse noire sur le dos de sa main gauche, évoluant depuis 6 mois. La lésion, initialement petite, a rapidement progressé et présente des saignements spontanés. L’examen révèle une tumeur exophytique de 4x3x10 cm, spongieuse et noire (Figure A), associée à une lymphadénopathie axillaire gauche visible et palpable (Figure B). Les examens complémentaires incluent une échographie Doppler montrant une tumeur très vascularisée, un scanner mettant en évidence un possible envahissement ganglionnaire et métastatique.",
+            "question": "Quel est le diagnostic principal basé sur les images et les résultats cliniques?",
+            "choices": [
+                {
+                    "text": "Carcinome épidermoïde",
+                    "correct": false
+                },
+                {
+                    "text": "Mélanome malin",
+                    "correct": true
+                },
+                {
+                    "text": "Hémangiome",
+                    "correct": false
+                },
+                {
+                    "text": "Kyste dermoïde",
+                    "correct": false
+                },
+                {
+                    "text": "Sarcome cutané",
+                    "correct": false
+                }
+            ],
+            "explanation": "Le tableau clinique et les résultats d’imagerie sont caractéristiques d’un mélanome malin. La présence d’une masse noire évolutive, les saignements spontanés, l’envahissement ganglionnaire et les métastases en transit confirment ce diagnostic. La biopsie et la cytologie ont formellement établi la nature maligne de la tumeur, classant cette lésion comme un mélanome malin cutané à un stade avancé.",
+            "source": "Pan African Medical Journal, 2024",
+            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/14/38/full/"
+        },
+        {
+            "id": 4,
+            "date": "11 Novembre 2024",
+            "images": [
+                {
+                    "url": "/images/pseudo.webp",
+                    "alt": "FO",
                     "width": 781,
                     "height": 417
                 }
             ],
-            "description": "Un enfant de 4 ans se présente en consultation ophtalmologique pour une déviation oculaire. L'examen retrouve une asymétrie d'acuité visuelle avec 9/10 à droite et 'compte les doigts à 0,5m' à gauche, ainsi qu'un strabisme convergent bilatéral. L'examen du segment antérieur est normal. L'exploration du fond d'œil révèle une structure particulière sur la figure A, accompagnée d'autres anomalies sur les examens complémentaires présentés.",
-            "question": "Quelle est votre interprétation de l'anomalie observée sur la figure A?",
+            "description": "Un enfant de 4 ans se présente en consultation ophtalmologique pour une déviation oculaire. L’examen retrouve une asymétrie d’acuité visuelle avec 9/10 à droite et ’compte les doigts à 0,5m’ à gauche, ainsi qu’un strabisme convergent bilatéral. L’examen du segment antérieur est normal. L’exploration du fond d’œil révèle une structure particulière sur la figure A, accompagnée d’autres anomalies sur les examens complémentaires présentés.",
+            "question": "Quelle est votre interprétation de l’anomalie observée sur la figure A?",
             "choices": [
                 {
                     "text": "Papillite optique",
@@ -40,17 +118,17 @@
             "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/16/8/full/"
         },
         {
-            "id": 1,
-            "date": "20 Novembre 2024",
+            "id": 5,
+            "date": "18 Novembre 2024",
             "images": [
                 {
-                    "url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/34/full/fig/fig1.png",
+                    "url": "/images/hyperchol.webp",
                     "alt": "Lésions cutanées",
                     "width": 499,
                     "height": 141
                 }
             ],
-            "description": "Une femme de 59 ans ayant des antécédents d'hypertension et d'hypercholestérolémie est admise pour un infarctus du myocarde sans élévation du segment ST . Une coronarographie d'urgence révèle une occlusion quasi-totale de l'artère coronaire principale gauche et de l'artère interventriculaire antérieure, nécessitant un pontage aorto-coronarien en urgence. Une consultation dermatologique est réalisée en raison de lésions cutanées généralisées. La patiente rapporte que ces lésions ont débuté à l'âge de neuf ans et se sont aggravées avec le temps. Quatre membres de sa famille, également atteints des mêmes lésions, sont décédés dans leur vingtaine. À l'examen clinique, des xanthomes tendineux multiples sont observés sur les mains et les pieds, des xanthomes plans au niveau des espaces interdigitaux, des plaques et des papules au niveau des bras et des jambes, y compris aux plis des coudes.Le bilan lipidique montre un cholestérol total à 840 mg/dL, un LDL à 792 mg/dL et des triglycérides normaux.",
+            "description": "Une femme de 59 ans ayant des antécédents dhypertension et d’hypercholestérolémie est admise pour un infarctus du myocarde sans élévation du segment ST . Une coronarographie d’urgence révèle une occlusion quasi-totale de l’artère coronaire principale gauche et de l’artère interventriculaire antérieure, nécessitant un pontage aorto-coronarien en urgence. Une consultation dermatologique est réalisée en raison de lésions cutanées généralisées. La patiente rapporte que ces lésions ont débuté à l’âge de neuf ans et se sont aggravées avec le temps. Quatre membres de sa famille, également atteints des mêmes lésions, sont décédés dans leur vingtaine. À l’examen clinique, des xanthomes tendineux multiples sont observés sur les mains et les pieds, des xanthomes plans au niveau des espaces interdigitaux, des plaques et des papules au niveau des bras et des jambes, y compris aux plis des coudes.Le bilan lipidique montre un cholestérol total à 840 mg/dL, un LDL à 792 mg/dL et des triglycérides normaux.",
             "question": "Quel est le diagnostic le plus probable ?",
             "choices": [
                 {

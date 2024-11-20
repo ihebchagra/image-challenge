@@ -50,7 +50,7 @@ $otherQuizzes = array_filter($data['quizzes'], function ($q) use ($quizId) {
 // Limit to a maximum of 3 other quizzes
 $otherQuizzes = array_slice($otherQuizzes, 0, 3);
 ?>
-<div x-data='<?php echo $quizData; ?>'>
+<div x-data='<?php echo htmlspecialchars($quizData); ?>'>
     <h1>Quiz d'Images Hebdomadaire par Iheb Chagra</h1>
     <h2>Le <?php echo $quiz['date']; ?></h2>
 

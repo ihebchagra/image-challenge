@@ -13,8 +13,6 @@ A web-based weekly image quiz application built with PHP, Alpine.js, and HTMX.
 
 - PHP
 - Alpine.js
-- HTMX
-- Custom CSS
 - Google Fonts (EB Garamond)
 
 ## Installation

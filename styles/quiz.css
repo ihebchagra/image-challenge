@@ -69,3 +69,8 @@ label {
 .quiz-box a:hover {
     background-color: #f0f0f0;
 }
+
+image-grid {
+    display: block;
+    align-content: center;
+}
