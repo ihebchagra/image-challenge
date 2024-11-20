@@ -26,31 +26,31 @@ if (!$quiz) {
     die('Quiz not found');
 }
 
+// Get random quiz ID that's different from current
+$randomId = $quizId;
+while ($randomId == $quizId) {
+    $randomId = rand(1, $totalQuizzes);
+}
+
 // Prepare data for Alpine.js
 $quizData = json_encode([
     'choices' => $quiz['choices'],
     'explanation' => $quiz['explanation'],
     'source' => $quiz['source'],
     'sourceUrl' => $quiz['source_url'],
-    'date' => $quiz['date']  // Add date to Alpine data
+    'date' => $quiz['date'],
+    'images' => $quiz['images']  // Add images array to Alpine data
 ]);
 ?>
-<link rel="stylesheet" href="../styles/quiz.css">
-
 <div x-data='<?php echo $quizData; ?>'>
-    <h1>Quiz d'Images Par Iheb Chagra</h1>
-    <h2>Le <span x-text="new Date(date).toLocaleDateString('fr-FR', { 
-        day: 'numeric', 
-        month: 'long', 
-        year: 'numeric' 
-    }).replace(/^([\d]+)\s/,'$1 ').replace(/^\w/, c => c.toUpperCase())"></span></h2>
+    <h1>Quiz d'Images Hebdomadaire par Iheb Chagra</h1>
+    <h2>Le <?php echo $quiz['date']; ?></h2>
 
 
     <image-grid>
-        <img src="<?php echo htmlspecialchars($quiz['image1_url']); ?>"
-            alt="<?php echo htmlspecialchars($quiz['image1_alt']); ?>">
-        <img src="<?php echo htmlspecialchars($quiz['image2_url']); ?>"
-            alt="<?php echo htmlspecialchars($quiz['image2_alt']); ?>">
+        <?php foreach ($quiz['images'] as $image): ?>
+        <img src="<?php echo htmlspecialchars($image['url']); ?>" alt="<?php echo htmlspecialchars($image['alt']); ?>">
+        <?php endforeach; ?>
     </image-grid>
     <p>
         <?php echo nl2br(htmlspecialchars($quiz['description'])); ?>
@@ -59,7 +59,7 @@ $quizData = json_encode([
 
     <multiple-choice>
         <div style="text-align: center; margin: 1rem;">
-            <nav-button @click="window.location.href='/quiz?id=<?php echo rand(1, $totalQuizzes); ?>'">
+            <nav-button @click="window.location.href='/quiz?id=<?php echo $randomId; ?>'">
                 Quiz Aléatoire
             </nav-button>
         </div>
