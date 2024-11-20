@@ -48,6 +48,7 @@ $otherQuizzes = array_filter($data['quizzes'], function ($q) use ($quizId) {
 });
 
 // Limit to a maximum of 3 other quizzes
+shuffle($otherQuizzes);
 $otherQuizzes = array_slice($otherQuizzes, 0, 3);
 ?>
 <div x-data='<?php echo htmlspecialchars($quizData); ?>'>

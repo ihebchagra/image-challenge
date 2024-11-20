@@ -1,6 +1,45 @@
 {
     "quizzes": [
         {
+            "id": 1,
+            "date": "21 Octobre 2024",
+            "images": [
+                {
+                    "url": "/images/foot.webp",
+                    "alt": "photo",
+                    "width": 294,
+                    "height": 464
+                }
+            ],
+            "description": "Une patiente de 35 ans travaillant comme femme de ménage se présente à l'hôpital avec des symptômes de démangeaisons et de brûlures sur les deux plantes des pieds depuis 8 mois. L'examen général révèle une fièvre légère sans autres signes associés. Les pieds présentent des caractéristiques incluant des érosions cutanées irrégulières et une texture cutanée visqueuse avec une odeur désagréable.",
+            "question": "Quel est le diagnostic le plus probable ?",
+            "choices": [
+                {
+                    "text": "Mycose interdigitale",
+                    "correct": false
+                },
+                {
+                    "text": "Kératolyse ponctuée",
+                    "correct": true
+                },
+                {
+                    "text": "Athlete's foot",
+                    "correct": false
+                },
+                {
+                    "text": "Verrue plantaire",
+                    "correct": false
+                },
+                {
+                    "text": "Eczéma dyshidrosique",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kératolyse punctiforme. Cette condition se caractérise par des pits de 1-3 mm sur la couche cornée, des érosions irrégulières, une texture cutanée visqueuse et une odeur désagréable des pieds. Elle touche fréquemment les zones de pression et est courante chez les personnes exposant leurs pieds à des environnements humides ou transpirants.",
+            "source": "Pan African Medical Journal, 2023",
+            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/11/32/full/"
+        },
+        {
             "id": 2,
             "date": "28 Octobre 2024",
             "images": [
@@ -128,7 +167,7 @@
                     "height": 141
                 }
             ],
-            "description": "Une femme de 59 ans ayant des antécédents dhypertension et d’hypercholestérolémie est admise pour un infarctus du myocarde sans élévation du segment ST . Une coronarographie d’urgence révèle une occlusion quasi-totale de l’artère coronaire principale gauche et de l’artère interventriculaire antérieure, nécessitant un pontage aorto-coronarien en urgence. Une consultation dermatologique est réalisée en raison de lésions cutanées généralisées. La patiente rapporte que ces lésions ont débuté à l’âge de neuf ans et se sont aggravées avec le temps. Quatre membres de sa famille, également atteints des mêmes lésions, sont décédés dans leur vingtaine. À l’examen clinique, des xanthomes tendineux multiples sont observés sur les mains et les pieds, des xanthomes plans au niveau des espaces interdigitaux, des plaques et des papules au niveau des bras et des jambes, y compris aux plis des coudes.Le bilan lipidique montre un cholestérol total à 840 mg/dL, un LDL à 792 mg/dL et des triglycérides normaux.",
+            "description": "Une femme de 59 ans ayant des antécédents dhypertension et d’hypercholestérolémie est admise pour un infarctus du myocarde sans élévation du segment ST . Une coronarographie d’urgence révèle une occlusion quasi-totale de l’artère coronaire principale gauche et de l’artère interventriculaire antérieure, nécessitant un pontage aorto-coronarien en urgence. Une consultation dermatologique est réalisée en raison de lésions cutanées généralisées. La patiente rapporte que ces lésions ont débuté à l’âge de neuf ans et se sont aggravées avec le temps. Quatre membres de sa famille, également atteints des mêmes lésions, sont décédés dans leur vingtaine. À l’examen clinique, des xanthomes tendineux multiples sont observés sur les mains et les pieds, des xanthomes plans au niveau des espaces interdigitaux, des plaques et des papules au niveau des bras et des jambes, y compris aux plis des coudes.Le bilan lipidique montre un cholestérol total à 8.4 g/L, un LDL à 7.92 g/L et des triglycérides normaux.",
             "question": "Quel est le diagnostic le plus probable ?",
             "choices": [
                 {
