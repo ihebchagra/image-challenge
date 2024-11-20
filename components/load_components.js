@@ -327,3 +327,56 @@ defineComponent(
         color: #000;
     }`
 );
+
+defineComponent(
+    "other-quizzes",
+    /*html*/`
+    <div class="other-quizzes">
+        <h2>Autres Quiz</h2>
+        <slot />
+    </div>`,
+    /*css*/`
+    .other-quizzes {
+        max-width: 65ch;
+        margin: 1.5rem auto;
+        background-color: white;
+        padding: 1rem;
+        font-family: 'EB Garamond', ui-sans-serif, system-ui, sans-serif;
+    }
+
+    .other-quizzes h2 {
+        text-align: center;
+    }
+
+    .quiz-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        border: 1px solid #000;
+        border-radius: 0.25rem;
+        padding: 1rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+
+    .quiz-box img {
+        max-width: 100px;
+        height: auto;
+        margin-bottom: 0.5rem;
+    }
+
+    .quiz-box p {
+        margin: 0.5rem 0;
+    }
+
+    .quiz-box a {
+        color: #000;
+        text-decoration: none;
+        border-bottom: 1px solid #000;
+    }
+
+    .quiz-box a:hover {
+        background-color: #f0f0f0;
+    }`
+);

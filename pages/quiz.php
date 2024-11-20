@@ -41,6 +41,14 @@ $quizData = json_encode([
     'date' => $quiz['date'],
     'images' => $quiz['images']  // Add images array to Alpine data
 ]);
+
+// Prepare data for other quizzes, excluding the current one
+$otherQuizzes = array_filter($data['quizzes'], function ($q) use ($quizId) {
+    return $q['id'] != $quizId;
+});
+
+// Limit to a maximum of 3 other quizzes
+$otherQuizzes = array_slice($otherQuizzes, 0, 3);
 ?>
 <div x-data='<?php echo $quizData; ?>'>
     <h1>Quiz d'Images Hebdomadaire par Iheb Chagra</h1>
@@ -65,5 +73,14 @@ $quizData = json_encode([
         </div>
     </multiple-choice>
 
-
+    <other-quizzes>
+        <?php foreach ($otherQuizzes as $otherQuiz): ?>
+        <div class="quiz-box">
+            <img src="<?php echo htmlspecialchars($otherQuiz['images'][0]['url']); ?>"
+                alt="<?php echo htmlspecialchars($otherQuiz['images'][0]['alt']); ?>">
+            <p><?php echo htmlspecialchars($otherQuiz['date']); ?></p>
+            <a href="/quiz?id=<?php echo $otherQuiz['id']; ?>">Voir le Quiz</a>
+        </div>
+        <?php endforeach; ?>
+    </other-quizzes>
 </div>
