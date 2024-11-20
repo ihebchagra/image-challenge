@@ -68,6 +68,7 @@ defineComponent(
             <div class="footer-content">
                 <p class="copyright">© 2024 Iheb Chagra. Tous droits réservés.</p>
                 <p class="license">Licence GNU General Public License v3.0</p>
+                <p>Ce site est Open-Source sur <a href="https://github.com/ihebchagra/image-challenge">Github</a></p>
                 <div class="contact-info">
                     <p>Contact: <a href="mailto:ihebchagra@gmail.com">ihebchagra@gmail.com</a></p>
                     <p>Médecin Résident en Microbiologie, Hôpitaux de Tunisie</p>              
