@@ -8,15 +8,15 @@ label {
 
 /* Headers */
 h1 {
-    font-size: 3rem;
-    line-height: 1;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
     padding-top: 1rem;
     text-align: center;
 }
 
 h2 {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     padding-top: 1rem;
     text-align: center;
 }
@@ -24,8 +24,6 @@ h2 {
 /* Content */
 p,
 label {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 65ch;
