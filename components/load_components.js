@@ -25,19 +25,6 @@ defineComponent(
 );
 
 defineComponent(
-    "about-page",
-    /*html*/`<div>
-    <h1>About Page</h1>
-    <p>This is the about page.</p>
-    </div>`,
-    /*css*/`h1 {
-        font-size: 3rem;
-        line-height: 1;
-        text-align: center;
-    }`
-);
-
-defineComponent(
     "image-grid",
     /*html*/`<div class="grid">
         <slot />
@@ -50,6 +37,7 @@ defineComponent(
         margin-top: 2rem;
         margin: 1rem;
         align-items: center;
+        gap: 0.5rem;
     }
     
     @media (min-width: 768px) {
@@ -62,15 +50,13 @@ defineComponent(
         
         ::slotted(img) {
             flex: 0 1 auto;
-            min-width: 200px;
-            max-width: calc(33.333% - 1rem);
+
         }
     }
     
     ::slotted(img) {
         background-color: rgb(243 244 246);
-        padding: 1rem;
-        width: 100%;
+        max-width: 100%;
         height: auto;
     }`
 );
@@ -79,15 +65,15 @@ defineComponent(
     "site-footer",
     /*html*/`
     <footer class="footer">
-        <div class="footer-content">
-            <p class="copyright">© 2024 Dr. Iheb Chagra. Tous droits réservés.</p>
-            <p class="license">Licence Creative Commons Attribution-NonCommercial 4.0 International</p>
-            <div class="contact-info">
-                <p>Contact: <a href="mailto:contact@ihebchagra.com">contact@ihebchagra.com</a></p>
-                <p>Service de Dermatologie, Hôpital Universitaire Farhat Hached, Sousse, Tunisie</p>
+            <div class="footer-content">
+                <p class="copyright">© 2024 Iheb Chagra. Tous droits réservés.</p>
+                <p class="license">Licence GNU General Public License v3.0</p>
+                <div class="contact-info">
+                    <p>Contact: <a href="mailto:ihebchagra@gmail.com">ihebchagra@gmail.com</a></p>
+                    <p>Médecin Résident en Microbiologie, Hôpitaux de Tunisie</p>              
+              </div>
             </div>
-        </div>
-    </footer>`,
+        </footer>`,
     /*css*/`
     .footer {
         font-family: 'EB Garamond', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -134,6 +120,17 @@ defineComponent(
     <div class="choices-container" x-data="{
         selectedAnswer: null,
         submitted: false,
+        choices: [],
+        init() {
+            this.choices = this.shuffle([...choices]);
+        },
+        shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        },
         retry() {
             this.submitted = false;
             this.selectedAnswer = null;
@@ -163,7 +160,7 @@ defineComponent(
         <div x-show="submitted" class="feedback">
             <template x-if="selectedAnswer !== null && choices[selectedAnswer].correct">
                 <div class="correct">
-                    <p class="success">Correct! ✓</p>
+                    <p class="success">Correct!</p>
                     <p x-text="explanation"></p>
                     <p class="source">
                         Source: <a :href="sourceUrl" target="_blank" x-text="source"></a>
