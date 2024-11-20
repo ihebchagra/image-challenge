@@ -1,39 +1,82 @@
 {
     "quizzes": [
         {
-            "id": 1,
-            "date": "2024-01-01",
-            "image1_url": "https://fakeimg.pl/600x400",
-            "image1_alt": "placeholder",
-            "image2_url": "https://fakeimg.pl/600x400",
-            "image2_alt": "placeholder",
-            "description": "Lorem ipsum dolor sit amet...",
-            "question": "Quel est le diagnostic le plus probable?",
+            "id": 2,
+            "date": "13 Novembre 2024",
+            "images": [
+                {
+                    "url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/16/8/full/fig/fig1.png",
+                    "alt": "Lésions cutanées",
+                    "width": 781,
+                    "height": 417
+                }
+            ],
+            "description": "Un enfant de 4 ans se présente en consultation ophtalmologique pour une déviation oculaire. L'examen retrouve une asymétrie d'acuité visuelle avec 9/10 à droite et 'compte les doigts à 0,5m' à gauche, ainsi qu'un strabisme convergent bilatéral. L'examen du segment antérieur est normal. L'exploration du fond d'œil révèle une structure particulière sur la figure A, accompagnée d'autres anomalies sur les examens complémentaires présentés.",
+            "question": "Quelle est votre interprétation de l'anomalie observée sur la figure A?",
             "choices": [
                 {
-                    "text": "Mélanome malin",
+                    "text": "Papillite optique",
+                    "correct": false
+                },
+                {
+                    "text": "Pseudo-duplication du disque optique",
                     "correct": true
                 },
                 {
-                    "text": "Carcinome basocellulaire",
+                    "text": "Drusen papillaire",
                     "correct": false
                 },
                 {
-                    "text": "Kératose séborrhéique",
+                    "text": "Colobome du nerf optique",
                     "correct": false
                 },
                 {
-                    "text": "Nævus atypique",
-                    "correct": false
-                },
-                {
-                    "text": "Autre",
+                    "text": "Hamartome astrocytaire",
                     "correct": false
                 }
             ],
-            "explanation": "Le mélanome malin présente typiquement...",
-            "source": "Journal of Clinical Oncology, 2023",
-            "source_url": "https://ascopubs.org/journal/jco"
+            "explanation": "La pseudo-duplication du disque optique est une affection rare, caractérisée par une lésion circonscrite ressemblant à un disque optique avec des vaisseaux sanguins. Elle s´associe à la présence d´un nerf optique normal et parfois à un colobome.",
+            "source": "Pan African Medical Journal, 2024",
+            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/16/8/full/"
+        },
+        {
+            "id": 1,
+            "date": "20 Novembre 2024",
+            "images": [
+                {
+                    "url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/34/full/fig/fig1.png",
+                    "alt": "Lésions cutanées",
+                    "width": 499,
+                    "height": 141
+                }
+            ],
+            "description": "Une femme de 59 ans ayant des antécédents d'hypertension et d'hypercholestérolémie est admise pour un infarctus du myocarde sans élévation du segment ST . Une coronarographie d'urgence révèle une occlusion quasi-totale de l'artère coronaire principale gauche et de l'artère interventriculaire antérieure, nécessitant un pontage aorto-coronarien en urgence. Une consultation dermatologique est réalisée en raison de lésions cutanées généralisées. La patiente rapporte que ces lésions ont débuté à l'âge de neuf ans et se sont aggravées avec le temps. Quatre membres de sa famille, également atteints des mêmes lésions, sont décédés dans leur vingtaine. À l'examen clinique, des xanthomes tendineux multiples sont observés sur les mains et les pieds, des xanthomes plans au niveau des espaces interdigitaux, des plaques et des papules au niveau des bras et des jambes, y compris aux plis des coudes.Le bilan lipidique montre un cholestérol total à 840 mg/dL, un LDL à 792 mg/dL et des triglycérides normaux.",
+            "question": "Quel est le diagnostic le plus probable ?",
+            "choices": [
+                {
+                    "text": "Maladie de Fabry",
+                    "correct": false
+                },
+                {
+                    "text": "Dysbétalipoprotéinémie familiale",
+                    "correct": false
+                },
+                {
+                    "text": "Hypercholestérolémie familiale de type 2 homozygote",
+                    "correct": true
+                },
+                {
+                    "text": "Hypertriglycéridémie familiale",
+                    "correct": false
+                },
+                {
+                    "text": "Xanthomatose cérébro-tendineuse",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cette maladie génétique autosomique dominante résulte d’un défaut des récepteurs des LDL, entraînant une accumulation importante de cholestérol LDL (souvent > 800 mg/dL). Elle provoque des xanthomes tendineux, plans ou tubéreux qui apparaissent dès l’enfance. Le tableau clinique décrit — des xanthomes multiples, un cholestérol très élevé, des triglycérides normaux et des antécédents familiaux de décès prématurés — oriente vers ce diagnostic.",
+            "source": "Pan African Medical Journal, 2023",
+            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/34/full/"
         }
     ]
 }
