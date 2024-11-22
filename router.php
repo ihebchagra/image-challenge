@@ -1,5 +1,5 @@
 <?php
-$allowed_routes = ['quiz', 'about'];
+$allowed_routes = ['quiz', 'test'];
 $request_uri = $_SERVER['REQUEST_URI'];
 $path = trim(parse_url($request_uri, PHP_URL_PATH), '/');
 
