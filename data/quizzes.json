@@ -194,6 +194,84 @@
             "explanation": "Cette maladie génétique autosomique dominante résulte d’un défaut des récepteurs des LDL, entraînant une accumulation importante de cholestérol LDL (souvent > 800 mg/dL). Elle provoque des xanthomes tendineux, plans ou tubéreux qui apparaissent dès l’enfance. Le tableau clinique décrit — des xanthomes multiples, un cholestérol très élevé, des triglycérides normaux et des antécédents familiaux de décès prématurés — oriente vers ce diagnostic.",
             "source": "Pan African Medical Journal, 2023",
             "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/34/full/"
+        },
+        {
+            "id": 6,
+            "date": "25 Novembre 2024",
+            "images": [
+                {
+                    "url": "/images/air-crescent-sign.webp",
+                    "alt": "CT scan showing Air Crescent Sign in the left upper lobe",
+                    "width": 709,
+                    "height": 596
+                }
+            ],
+            "description": "Une patiente de 60 ans se présente avec de la fièvre, une toux avec expectorations, et une dyspnée d'effort depuis 20 jours. Elle a des antécédents de tuberculose pulmonaire traitée il y a 6 ans. Une radiographie thoracique révèle des changements fibreux dans les deux champs pulmonaires. Une TDM haute résolution montre une cavité dans le lobe supérieur gauche avec une masse arrondie séparée de la paroi de la cavité par un espace en croissant d'air (signe du croissant d'air).",
+            "question": "Quel est le diagnostic le plus probable ?",
+            "choices": [
+                {
+                    "text": "Tuberculome",
+                    "correct": false
+                },
+                {
+                    "text": "Aspergillome",
+                    "correct": true
+                },
+                {
+                    "text": "Cancer bronchogénique",
+                    "correct": false
+                },
+                {
+                    "text": "Abcès pulmonaire",
+                    "correct": false
+                },
+                {
+                    "text": "Granulomatose éosinophilique avec polyangéite (Wegener)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Le signe du croissant d'air visible à la TDM est caractéristique de l'aspergillome, une infection fongique causée par des espèces d'Aspergillus. Ce diagnostic est confirmé par des tests sérologiques positifs pour *Aspergillus fumigatus* et des antécédents cliniques compatibles, comme une cavité pulmonaire préexistante après la tuberculose.",
+            "source": "Pan African Medical Journal, 2024",
+            "source_url": "https://www.panafrican-med-journal.com/content/article/48/71/full/"
+        },
+        {
+            "id": 7,
+            "date": "1 Décembre 2024",
+            "images": [
+                {
+                    "url": "/images/hand-exostosis.webp",
+                    "alt": "Radiographie montrant une exostose au niveau du premier métacarpien",
+                    "width": 659,
+                    "height": 416
+                }
+            ],
+            "description": "Un patient de 32 ans, suivi pour des excroissances ostéo-cartilagineuses multiples depuis son enfance, consulte pour une douleur chronique au niveau de la base du pouce gauche. L'examen clinique montre l'aspect dans l'image ci-dessus. La radiographie révèle une excroissance ostéo-cartilagineuse en continuité avec la corticale du premier métacarpien. L'exérèse chirurgicale et l'analyse histopathologique ont confirmé un chondrosarcome de bas grade.",
+            "question": "Quel est le diagnostic étiologique le plus probable ?",
+            "choices": [
+                {
+                    "text": "Exostose solitaire",
+                    "correct": false
+                },
+                {
+                    "text": "Maladie des exostoses multiples (MEM)",
+                    "correct": true
+                },
+                {
+                    "text": "Maladie d'Ollier",
+                    "correct": false
+                },
+                {
+                    "text": "Métachondromatose",
+                    "correct": false
+                },
+                {
+                    "text": "Chondrosarcome primaire",
+                    "correct": false
+                }
+            ],
+            "explanation": "La maladie des exostoses multiples (MEM) est une affection héréditaire caractérisée par des excroissances ostéo-cartilagineuses touchant la métaphyse des os longs. Le diagnostic repose sur le contexte clinique, radiologique et familial. La différenciation d'autres maladies comme la maladie d'Ollier ou la métachondromatose est essentielle.",
+            "source": "Pan African Medical Journal, 2023",
+            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/20/full/"
         }
     ]
 }
