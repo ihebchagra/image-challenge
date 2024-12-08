@@ -52,7 +52,8 @@ shuffle($otherQuizzes);
 $otherQuizzes = array_slice($otherQuizzes, 0, 3);
 ?>
 <div x-data='<?php echo htmlspecialchars($quizData); ?>'>
-    <h1>Quiz d'Images Hebdomadaire par Iheb Chagra</h1>
+    <h1>Quiz d'Images Hebdomadaire </h1>
+    <p id="createdby">Créé par Iheb Chagra</p>
     <h2>Le <?php echo $quiz['date']; ?></h2>
 
 

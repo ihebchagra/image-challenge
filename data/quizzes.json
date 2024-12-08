@@ -236,7 +236,7 @@
         },
         {
             "id": 7,
-            "date": "1 Décembre 2024",
+            "date": "2 Décembre 2024",
             "images": [
                 {
                     "url": "/images/hand-exostosis.webp",
@@ -272,6 +272,45 @@
             "explanation": "La maladie des exostoses multiples (MEM) est une affection héréditaire caractérisée par des excroissances ostéo-cartilagineuses touchant la métaphyse des os longs. Le diagnostic repose sur le contexte clinique, radiologique et familial. La différenciation d'autres maladies comme la maladie d'Ollier ou la métachondromatose est essentielle.",
             "source": "Pan African Medical Journal, 2023",
             "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/20/full/"
+        },
+        {
+            "id": 8,
+            "date": "9 Décembre 2024",
+            "images": [
+                {
+                    "url": "/images/punchout.webp",
+                    "alt": "Ulcérations type punch-out",
+                    "width": 659,
+                    "height": 416
+                }
+            ],
+            "description": "Un adolescent de 18 ans consulte pour des symptômes inhabituels de dysphagie intermittente et de douleurs épigastriques. Afin d'élucider la cause de ces symptômes, une batterie d'examens complémentaires est réalisée. L'endoscopie digestive haute révèle des ulcérations multiples à type de \"punch out\" au niveau de l'œsophage moyen. Les recherches infectieuses sont systématiquement effectuées, incluant des tests de Ziehl-Nielsen, une PCR tuberculose, une sérologie VIH et des immunohistochimies pour le CMV et l'HSV, tous revenus négatifs. L'iléo-coloscopie et l'IRM entéro-scanner ne montrent aucune anomalie significative. Les biopsies œsophagiennes mettent en évidence des érosions avec des granulomes épithélioïdes sans nécrose centrale.",
+            "question": "Quel est le diagnostic étiologique le plus probable ?",
+            "choices": [
+                {
+                    "text": "Reflux gastro-œsophagien",
+                    "correct": false
+                },
+                {
+                    "text": "Maladie de Crohn œsophagienne",
+                    "correct": true
+                },
+                {
+                    "text": "Carcinome œsophagien",
+                    "correct": false
+                },
+                {
+                    "text": "Maladie de Behçet",
+                    "correct": false
+                },
+                {
+                    "text": "Tuberculose œsophagienne",
+                    "correct": false
+                }
+            ],
+            "explanation": "Maladie de Crohn œsophagienne. Ce diagnostic a été retenu après avoir éliminé méthodiquement les autres pathologies par un faisceau d'arguments cliniques, endoscopiques et histologiques. Les ulcérations caractéristiques en \"punch out\", l'absence de signes infectieux ou tumoraux, et la présence de granulomes à l'histologie sont des éléments très évocateurs. Cette localisation œsophagienne isolée est exceptionnelle, représentant moins de 2% des cas de maladie de Crohn, ce qui rend ce cas particulièrement intéressant sur le plan diagnostique et sémiologique.",
+            "source": "European Journal of Case Reports in Internal Medecine, 2024",
+            "source_url": "https://www.ejcrim.com/index.php/EJCRIM/article/view/4926"
         }
     ]
 }
