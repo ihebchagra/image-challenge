@@ -41,15 +41,16 @@ $quizData = json_encode([
     'date' => $quiz['date'],
     'images' => $quiz['images']  // Add images array to Alpine data
 ]);
-
 // Prepare data for other quizzes, excluding the current one
 $otherQuizzes = array_filter($data['quizzes'], function ($q) use ($quizId) {
     return $q['id'] != $quizId;
 });
 
-// Limit to a maximum of 3 other quizzes
-shuffle($otherQuizzes);
-$otherQuizzes = array_slice($otherQuizzes, 0, 3);
+// Limit to the latest 3 other quizzes
+$otherQuizzes = array_slice($otherQuizzes, -3, 3);
+
+// Flip the array so the last element is the first element
+$otherQuizzes = array_reverse($otherQuizzes);
 ?>
 <div x-data='<?php echo htmlspecialchars($quizData); ?>'>
     <nav>

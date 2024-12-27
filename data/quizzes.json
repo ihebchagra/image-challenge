@@ -311,6 +311,45 @@
             "explanation": "Maladie de Crohn œsophagienne. Ce diagnostic a été retenu après avoir éliminé méthodiquement les autres pathologies par un faisceau d'arguments cliniques, endoscopiques et histologiques. Les ulcérations caractéristiques en \"punch out\", l'absence de signes infectieux ou tumoraux, et la présence de granulomes à l'histologie sont des éléments très évocateurs. Cette localisation œsophagienne isolée est exceptionnelle, représentant moins de 2% des cas de maladie de Crohn, ce qui rend ce cas particulièrement intéressant sur le plan diagnostique et sémiologique.",
             "source": "European Journal of Case Reports in Internal Medecine, 2024",
             "source_url": "https://www.ejcrim.com/index.php/EJCRIM/article/view/4926"
+        },
+        {
+            "id": 9,
+            "date": "16 Décembre 2024",
+            "images": [
+                {
+                    "url": "/images/parotide.webp",
+                    "alt": "Tumeur du parotide",
+                    "width": 800,
+                    "height": 600
+                }
+            ],
+            "description": "Une patiente de 68 ans, sans antécédents médicaux notables, consulte pour une tumeur indolore du côté droit du visage, évoluant progressivement depuis plus de 20 ans. L'examen clinique révèle une masse parotidienne de 10 cm sur 15 cm, de consistance ferme, mobile et sans adhérence aux structures adjacentes. Malgré sa taille importante, la peau sus-jacente apparaît normale, sans signe de paralysie faciale ni adénopathie cervicale. Un scanner (B) et un bilan préopératoire sont réalisés.",
+            "question": "Quel est le diagnostic le plus probable?",
+            "choices": [
+                {
+                    "text": "Carcinome épidermoïde",
+                    "correct": false
+                },
+                {
+                    "text": "Adénome pléomorphe",
+                    "correct": true
+                },
+                {
+                    "text": "Lymphome parotidien",
+                    "correct": false
+                },
+                {
+                    "text": "Tumeur de Warthin",
+                    "correct": false
+                },
+                {
+                    "text": "Kyste épidermoïde",
+                    "correct": false
+                }
+            ],
+            "explanation": "Les caractéristiques cliniques et histologiques sont typiques : tumeur volumineuse, évoluant lentement depuis de nombreuses années, mobile, indolore, sans signes de malignité. L'analyse histologique post-chirurgicale a confirmé la nature bénigne de cette tumeur, classique des adénomes pléomorphes des glandes salivaires, qui représentent la tumeur parotidienne la plus fréquente.",
+            "source": "Pan African Medical Journal, 2023",
+            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/8/full/"
         }
     ]
 }
