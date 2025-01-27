@@ -1,21 +1,21 @@
 <?php
 // Read JSON file
-$jsonData = file_get_contents(__DIR__ . '/../data/quizzes.json');
+$jsonData = file_get_contents(__DIR__ . "/../data/quizzes.json");
 $data = json_decode($jsonData, true);
 
 // Get total number of quizzes
-$totalQuizzes = count($data['quizzes']);
+$totalQuizzes = count($data["quizzes"]);
 
 // Get latest quiz ID
-$latestQuizId = $data['quizzes'][$totalQuizzes - 1]['id'];
+$latestQuizId = $data["quizzes"][$totalQuizzes - 1]["id"];
 
 // Get quiz ID from URL parameter, default to latest
-$quizId = $_GET['id'] ?? $latestQuizId;
+$quizId = $_GET["id"] ?? $latestQuizId;
 
 // Find the quiz by ID
 $quiz = null;
-foreach ($data['quizzes'] as $q) {
-    if ($q['id'] == $quizId) {
+foreach ($data["quizzes"] as $q) {
+    if ($q["id"] == $quizId) {
         $quiz = $q;
         break;
     }
@@ -23,7 +23,7 @@ foreach ($data['quizzes'] as $q) {
 
 // If quiz not found, show error or redirect
 if (!$quiz) {
-    die('Quiz not found');
+    die("Quiz not found");
 }
 
 // Get random quiz ID that's different from current
@@ -34,16 +34,16 @@ while ($randomId == $quizId) {
 
 // Prepare data for Alpine.js
 $quizData = json_encode([
-    'choices' => $quiz['choices'],
-    'explanation' => $quiz['explanation'],
-    'source' => $quiz['source'],
-    'sourceUrl' => $quiz['source_url'],
-    'date' => $quiz['date'],
-    'images' => $quiz['images']  // Add images array to Alpine data
+    "choices" => $quiz["choices"],
+    "explanation" => $quiz["explanation"],
+    "source" => $quiz["source"],
+    "sourceUrl" => $quiz["source_url"],
+    "date" => $quiz["date"],
+    "images" => $quiz["images"], // Add images array to Alpine data
 ]);
 // Prepare data for other quizzes, excluding the current one
-$otherQuizzes = array_filter($data['quizzes'], function ($q) use ($quizId) {
-    return $q['id'] != $quizId;
+$otherQuizzes = array_filter($data["quizzes"], function ($q) use ($quizId) {
+    return $q["id"] != $quizId;
 });
 
 // Limit to the latest 3 other quizzes
@@ -56,19 +56,21 @@ $otherQuizzes = array_reverse($otherQuizzes);
     <nav>
         <a href="https://iheb.tn">iheb.tn</a>
     </nav>
-    <h1>Quiz d'Images Hebdomadaire</h1>
+    <h1>Quiz d'Images Bi-Hebdomadaire</h1>
     <p id="createdby">Créé par Iheb Chagra</p>
-    <h2>Le <?php echo $quiz['date']; ?></h2>
+    <h2>Le <?php echo $quiz["date"]; ?></h2>
 
 
     <image-grid>
-        <?php foreach ($quiz['images'] as $image): ?>
-        <img src="<?php echo htmlspecialchars($image['url']); ?>" alt="<?php echo htmlspecialchars($image['alt']); ?>">
+        <?php foreach ($quiz["images"] as $image): ?>
+        <img src="<?php echo htmlspecialchars(
+            $image["url"]
+        ); ?>" alt="<?php echo htmlspecialchars($image["alt"]); ?>">
         <?php endforeach; ?>
     </image-grid>
     <p>
-        <?php echo nl2br(htmlspecialchars($quiz['description'])); ?>
-        <strong><?php echo htmlspecialchars($quiz['question']); ?></strong>
+        <?php echo nl2br(htmlspecialchars($quiz["description"])); ?>
+        <strong><?php echo htmlspecialchars($quiz["question"]); ?></strong>
     </p>
 
     <multiple-choice>
@@ -82,10 +84,14 @@ $otherQuizzes = array_reverse($otherQuizzes);
     <other-quizzes>
         <?php foreach ($otherQuizzes as $otherQuiz): ?>
         <div class="quiz-box">
-            <img src="<?php echo htmlspecialchars($otherQuiz['images'][0]['url']); ?>"
-                alt="<?php echo htmlspecialchars($otherQuiz['images'][0]['alt']); ?>">
-            <p><?php echo htmlspecialchars($otherQuiz['date']); ?></p>
-            <a href="/quiz?id=<?php echo $otherQuiz['id']; ?>">Voir le Quiz</a>
+            <img src="<?php echo htmlspecialchars(
+                $otherQuiz["images"][0]["url"]
+            ); ?>"
+                alt="<?php echo htmlspecialchars(
+                    $otherQuiz["images"][0]["alt"]
+                ); ?>">
+            <p><?php echo htmlspecialchars($otherQuiz["date"]); ?></p>
+            <a href="/quiz?id=<?php echo $otherQuiz["id"]; ?>">Voir le Quiz</a>
         </div>
         <?php endforeach; ?>
     </other-quizzes>

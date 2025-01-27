@@ -1,355 +1,472 @@
 {
-    "quizzes": [
+  "quizzes": [
+    {
+      "id": 1,
+      "date": "21 Octobre 2024",
+      "images": [
         {
-            "id": 1,
-            "date": "21 Octobre 2024",
-            "images": [
-                {
-                    "url": "/images/foot.webp",
-                    "alt": "photo",
-                    "width": 294,
-                    "height": 464
-                }
-            ],
-            "description": "Une patiente de 35 ans travaillant comme femme de ménage se présente à l'hôpital avec des symptômes de démangeaisons et de brûlures sur les deux plantes des pieds depuis 8 mois. L'examen général révèle une fièvre légère sans autres signes associés. Les pieds présentent des caractéristiques incluant des érosions cutanées irrégulières et une texture cutanée visqueuse avec une odeur désagréable.",
-            "question": "Quel est le diagnostic le plus probable ?",
-            "choices": [
-                {
-                    "text": "Mycose interdigitale",
-                    "correct": false
-                },
-                {
-                    "text": "Kératolyse ponctuée",
-                    "correct": true
-                },
-                {
-                    "text": "Athlete's foot",
-                    "correct": false
-                },
-                {
-                    "text": "Verrue plantaire",
-                    "correct": false
-                },
-                {
-                    "text": "Eczéma dyshidrosique",
-                    "correct": false
-                }
-            ],
-            "explanation": "Kératolyse Ponctuée: Cette condition se caractérise par des pits de 1-3 mm sur la couche cornée, des érosions irrégulières, une texture cutanée visqueuse et une odeur désagréable des pieds. Elle touche fréquemment les zones de pression et est courante chez les personnes exposant leurs pieds à des environnements humides ou transpirants.",
-            "source": "Pan African Medical Journal, 2023",
-            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/11/32/full/"
-        },
-        {
-            "id": 2,
-            "date": "28 Octobre 2024",
-            "images": [
-                {
-                    "url": "/images/plaque.webp",
-                    "alt": "photo",
-                    "width": 561,
-                    "height": 580
-                }
-            ],
-            "description": "Un patient masculin de 52 ans consulte pour des plaques érythémateuses avec desquamation, rougeur et démangeaisons sur les membres supérieurs depuis 4 ans. Les antécédents médicaux révèlent un diabète et une hypertension. L’examen clinique met en évidence des lésions cutanées bien délimitées, rougeatres, présentant une desquamation blanchâtre, localisées principalement sur les surfaces d’extension des membres supérieurs.",
-            "question": "Quel est le diagnostic le plus probable ?",
-            "choices": [
-                {
-                    "text": "Eczéma",
-                    "correct": false
-                },
-                {
-                    "text": "Psoriasis Vulgaris",
-                    "correct": true
-                },
-                {
-                    "text": "Lichen plan",
-                    "correct": false
-                },
-                {
-                    "text": "Dermatite séborrhéique",
-                    "correct": false
-                },
-                {
-                    "text": "Lupus érythémateux",
-                    "correct": false
-                }
-            ],
-            "explanation": "Les caractéristiques cliniques correspondent typiquement au psoriasis : plaques érythémateuses bien délimitées, desquamation, localisation sur surfaces d’extension, et association à des comorbidités.",
-            "source": "Pan African Medical Journal, 2023",
-            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/11/35/full/"
-        },
-        {
-            "id": 3,
-            "date": "4 Novembre 2024",
-            "images": [
-                {
-                    "url": "/images/skin-tumor.webp",
-                    "alt": "photographe",
-                    "width": 561,
-                    "height": 580
-                }
-            ],
-            "description": "Un homme de 43 ans, consulte à l’hôpital pour une masse noire sur le dos de sa main gauche, évoluant depuis 6 mois. La lésion, initialement petite, a rapidement progressé et présente des saignements spontanés. L’examen révèle une tumeur exophytique de 4x3x10 cm, spongieuse et noire (Figure A), associée à une lymphadénopathie axillaire gauche visible et palpable (Figure B). Les examens complémentaires incluent une échographie Doppler montrant une tumeur très vascularisée, un scanner mettant en évidence un possible envahissement ganglionnaire et métastatique.",
-            "question": "Quel est le diagnostic principal basé sur les images et les résultats cliniques?",
-            "choices": [
-                {
-                    "text": "Carcinome épidermoïde",
-                    "correct": false
-                },
-                {
-                    "text": "Mélanome malin",
-                    "correct": true
-                },
-                {
-                    "text": "Hémangiome",
-                    "correct": false
-                },
-                {
-                    "text": "Kyste dermoïde",
-                    "correct": false
-                },
-                {
-                    "text": "Sarcome cutané",
-                    "correct": false
-                }
-            ],
-            "explanation": "Le tableau clinique et les résultats d’imagerie sont caractéristiques d’un mélanome malin. La présence d’une masse noire évolutive, les saignements spontanés, l’envahissement ganglionnaire et les métastases en transit confirment ce diagnostic. La biopsie et la cytologie ont formellement établi la nature maligne de la tumeur, classant cette lésion comme un mélanome malin cutané à un stade avancé.",
-            "source": "Pan African Medical Journal, 2024",
-            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/14/38/full/"
-        },
-        {
-            "id": 4,
-            "date": "11 Novembre 2024",
-            "images": [
-                {
-                    "url": "/images/pseudo.webp",
-                    "alt": "FO",
-                    "width": 781,
-                    "height": 417
-                }
-            ],
-            "description": "Un enfant de 4 ans se présente en consultation ophtalmologique pour une déviation oculaire. L’examen retrouve une asymétrie d’acuité visuelle avec 9/10 à droite et ’compte les doigts à 0,5m’ à gauche, ainsi qu’un strabisme convergent bilatéral. L’examen du segment antérieur est normal. L’exploration du fond d’œil révèle une structure particulière sur la figure A, accompagnée d’autres anomalies sur les examens complémentaires présentés.",
-            "question": "Quelle est votre interprétation de l’anomalie observée sur la figure A?",
-            "choices": [
-                {
-                    "text": "Papillite optique",
-                    "correct": false
-                },
-                {
-                    "text": "Pseudo-duplication du disque optique",
-                    "correct": true
-                },
-                {
-                    "text": "Drusen papillaire",
-                    "correct": false
-                },
-                {
-                    "text": "Colobome du nerf optique",
-                    "correct": false
-                },
-                {
-                    "text": "Hamartome astrocytaire",
-                    "correct": false
-                }
-            ],
-            "explanation": "La pseudo-duplication du disque optique est une affection rare, caractérisée par une lésion circonscrite ressemblant à un disque optique avec des vaisseaux sanguins. Elle s´associe à la présence d´un nerf optique normal et parfois à un colobome.",
-            "source": "Pan African Medical Journal, 2024",
-            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/16/8/full/"
-        },
-        {
-            "id": 5,
-            "date": "18 Novembre 2024",
-            "images": [
-                {
-                    "url": "/images/hyperchol.webp",
-                    "alt": "Lésions cutanées",
-                    "width": 499,
-                    "height": 141
-                }
-            ],
-            "description": "Une femme de 59 ans ayant des antécédents dhypertension et d’hypercholestérolémie est admise pour un infarctus du myocarde sans élévation du segment ST . Une coronarographie d’urgence révèle une occlusion quasi-totale de l’artère coronaire principale gauche et de l’artère interventriculaire antérieure, nécessitant un pontage aorto-coronarien en urgence. Une consultation dermatologique est réalisée en raison de lésions cutanées généralisées. La patiente rapporte que ces lésions ont débuté à l’âge de neuf ans et se sont aggravées avec le temps. Quatre membres de sa famille, également atteints des mêmes lésions, sont décédés dans leur vingtaine. À l’examen clinique, des xanthomes tendineux multiples sont observés sur les mains et les pieds, des xanthomes plans au niveau des espaces interdigitaux, des plaques et des papules au niveau des bras et des jambes, y compris aux plis des coudes.Le bilan lipidique montre un cholestérol total à 8.4 g/L, un LDL à 7.92 g/L et des triglycérides normaux.",
-            "question": "Quel est le diagnostic le plus probable ?",
-            "choices": [
-                {
-                    "text": "Maladie de Fabry",
-                    "correct": false
-                },
-                {
-                    "text": "Dysbétalipoprotéinémie familiale",
-                    "correct": false
-                },
-                {
-                    "text": "Hypercholestérolémie familiale de type 2 homozygote",
-                    "correct": true
-                },
-                {
-                    "text": "Hypertriglycéridémie familiale",
-                    "correct": false
-                },
-                {
-                    "text": "Xanthomatose cérébro-tendineuse",
-                    "correct": false
-                }
-            ],
-            "explanation": "Cette maladie génétique autosomique dominante résulte d’un défaut des récepteurs des LDL, entraînant une accumulation importante de cholestérol LDL (souvent > 800 mg/dL). Elle provoque des xanthomes tendineux, plans ou tubéreux qui apparaissent dès l’enfance. Le tableau clinique décrit — des xanthomes multiples, un cholestérol très élevé, des triglycérides normaux et des antécédents familiaux de décès prématurés — oriente vers ce diagnostic.",
-            "source": "Pan African Medical Journal, 2023",
-            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/34/full/"
-        },
-        {
-            "id": 6,
-            "date": "25 Novembre 2024",
-            "images": [
-                {
-                    "url": "/images/air-crescent-sign.webp",
-                    "alt": "CT scan showing Air Crescent Sign in the left upper lobe",
-                    "width": 709,
-                    "height": 596
-                }
-            ],
-            "description": "Une patiente de 60 ans se présente avec de la fièvre, une toux avec expectorations, et une dyspnée d'effort depuis 20 jours. Elle a des antécédents de tuberculose pulmonaire traitée il y a 6 ans. Une radiographie thoracique révèle des changements fibreux dans les deux champs pulmonaires. Une TDM haute résolution montre une cavité dans le lobe supérieur gauche avec une masse arrondie séparée de la paroi de la cavité par un espace en croissant d'air (signe du croissant d'air).",
-            "question": "Quel est le diagnostic le plus probable ?",
-            "choices": [
-                {
-                    "text": "Tuberculome",
-                    "correct": false
-                },
-                {
-                    "text": "Aspergillome",
-                    "correct": true
-                },
-                {
-                    "text": "Cancer bronchogénique",
-                    "correct": false
-                },
-                {
-                    "text": "Abcès pulmonaire",
-                    "correct": false
-                },
-                {
-                    "text": "Granulomatose éosinophilique avec polyangéite (Wegener)",
-                    "correct": false
-                }
-            ],
-            "explanation": "Le signe du croissant d'air visible à la TDM est caractéristique de l'aspergillome, une infection fongique causée par des espèces d'Aspergillus. Ce diagnostic est confirmé par des tests sérologiques positifs pour *Aspergillus fumigatus* et des antécédents cliniques compatibles, comme une cavité pulmonaire préexistante après la tuberculose.",
-            "source": "Pan African Medical Journal, 2024",
-            "source_url": "https://www.panafrican-med-journal.com/content/article/48/71/full/"
-        },
-        {
-            "id": 7,
-            "date": "2 Décembre 2024",
-            "images": [
-                {
-                    "url": "/images/hand-exostosis.webp",
-                    "alt": "Radiographie montrant une exostose au niveau du premier métacarpien",
-                    "width": 659,
-                    "height": 416
-                }
-            ],
-            "description": "Un patient de 32 ans, suivi pour des excroissances ostéo-cartilagineuses multiples depuis son enfance, consulte pour une douleur chronique au niveau de la base du pouce gauche. L'examen clinique montre l'aspect dans l'image ci-dessus. La radiographie révèle une excroissance ostéo-cartilagineuse en continuité avec la corticale du premier métacarpien. L'exérèse chirurgicale et l'analyse histopathologique ont confirmé un chondrosarcome de bas grade.",
-            "question": "Quel est le diagnostic étiologique le plus probable ?",
-            "choices": [
-                {
-                    "text": "Exostose solitaire",
-                    "correct": false
-                },
-                {
-                    "text": "Maladie des exostoses multiples (MEM)",
-                    "correct": true
-                },
-                {
-                    "text": "Maladie d'Ollier",
-                    "correct": false
-                },
-                {
-                    "text": "Métachondromatose",
-                    "correct": false
-                },
-                {
-                    "text": "Chondrosarcome primaire",
-                    "correct": false
-                }
-            ],
-            "explanation": "La maladie des exostoses multiples (MEM) est une affection héréditaire caractérisée par des excroissances ostéo-cartilagineuses touchant la métaphyse des os longs. Le diagnostic repose sur le contexte clinique, radiologique et familial. La différenciation d'autres maladies comme la maladie d'Ollier ou la métachondromatose est essentielle.",
-            "source": "Pan African Medical Journal, 2023",
-            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/20/full/"
-        },
-        {
-            "id": 8,
-            "date": "9 Décembre 2024",
-            "images": [
-                {
-                    "url": "/images/punchout.webp",
-                    "alt": "Ulcérations type punch-out",
-                    "width": 659,
-                    "height": 416
-                }
-            ],
-            "description": "Un adolescent de 18 ans consulte pour des symptômes inhabituels de dysphagie intermittente et de douleurs épigastriques. Afin d'élucider la cause de ces symptômes, une batterie d'examens complémentaires est réalisée. L'endoscopie digestive haute révèle des ulcérations multiples à type de \"punch out\" au niveau de l'œsophage moyen. Les recherches infectieuses sont systématiquement effectuées, incluant des tests de Ziehl-Nielsen, une PCR tuberculose, une sérologie VIH et des immunohistochimies pour le CMV et l'HSV, tous revenus négatifs. L'iléo-coloscopie et l'IRM entéro-scanner ne montrent aucune anomalie significative. Les biopsies œsophagiennes mettent en évidence des érosions avec des granulomes épithélioïdes sans nécrose centrale.",
-            "question": "Quel est le diagnostic étiologique le plus probable ?",
-            "choices": [
-                {
-                    "text": "Reflux gastro-œsophagien",
-                    "correct": false
-                },
-                {
-                    "text": "Maladie de Crohn œsophagienne",
-                    "correct": true
-                },
-                {
-                    "text": "Carcinome œsophagien",
-                    "correct": false
-                },
-                {
-                    "text": "Maladie de Behçet",
-                    "correct": false
-                },
-                {
-                    "text": "Tuberculose œsophagienne",
-                    "correct": false
-                }
-            ],
-            "explanation": "Maladie de Crohn œsophagienne. Ce diagnostic a été retenu après avoir éliminé méthodiquement les autres pathologies par un faisceau d'arguments cliniques, endoscopiques et histologiques. Les ulcérations caractéristiques en \"punch out\", l'absence de signes infectieux ou tumoraux, et la présence de granulomes à l'histologie sont des éléments très évocateurs. Cette localisation œsophagienne isolée est exceptionnelle, représentant moins de 2% des cas de maladie de Crohn, ce qui rend ce cas particulièrement intéressant sur le plan diagnostique et sémiologique.",
-            "source": "European Journal of Case Reports in Internal Medecine, 2024",
-            "source_url": "https://www.ejcrim.com/index.php/EJCRIM/article/view/4926"
-        },
-        {
-            "id": 9,
-            "date": "16 Décembre 2024",
-            "images": [
-                {
-                    "url": "/images/parotide.webp",
-                    "alt": "Tumeur du parotide",
-                    "width": 800,
-                    "height": 600
-                }
-            ],
-            "description": "Une patiente de 68 ans, sans antécédents médicaux notables, consulte pour une tumeur indolore du côté droit du visage, évoluant progressivement depuis plus de 20 ans. L'examen clinique révèle une masse parotidienne de 10 cm sur 15 cm, de consistance ferme, mobile et sans adhérence aux structures adjacentes. Malgré sa taille importante, la peau sus-jacente apparaît normale, sans signe de paralysie faciale ni adénopathie cervicale. Un scanner (B) et un bilan préopératoire sont réalisés.",
-            "question": "Quel est le diagnostic le plus probable?",
-            "choices": [
-                {
-                    "text": "Carcinome épidermoïde",
-                    "correct": false
-                },
-                {
-                    "text": "Adénome pléomorphe",
-                    "correct": true
-                },
-                {
-                    "text": "Lymphome parotidien",
-                    "correct": false
-                },
-                {
-                    "text": "Tumeur de Warthin",
-                    "correct": false
-                },
-                {
-                    "text": "Kyste épidermoïde",
-                    "correct": false
-                }
-            ],
-            "explanation": "Les caractéristiques cliniques et histologiques sont typiques : tumeur volumineuse, évoluant lentement depuis de nombreuses années, mobile, indolore, sans signes de malignité. L'analyse histologique post-chirurgicale a confirmé la nature bénigne de cette tumeur, classique des adénomes pléomorphes des glandes salivaires, qui représentent la tumeur parotidienne la plus fréquente.",
-            "source": "Pan African Medical Journal, 2023",
-            "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/8/full/"
+          "url": "/images/foot.webp",
+          "alt": "photo",
+          "width": 294,
+          "height": 464
         }
-    ]
+      ],
+      "description": "Une patiente de 35 ans travaillant comme femme de ménage se présente à l'hôpital avec des symptômes de démangeaisons et de brûlures sur les deux plantes des pieds depuis 8 mois. L'examen général révèle une fièvre légère sans autres signes associés. Les pieds présentent des caractéristiques incluant des érosions cutanées irrégulières et une texture cutanée visqueuse avec une odeur désagréable.",
+      "question": "Quel est le diagnostic le plus probable ?",
+      "choices": [
+        {
+          "text": "Mycose interdigitale",
+          "correct": false
+        },
+        {
+          "text": "Kératolyse ponctuée",
+          "correct": true
+        },
+        {
+          "text": "Athlete's foot",
+          "correct": false
+        },
+        {
+          "text": "Verrue plantaire",
+          "correct": false
+        },
+        {
+          "text": "Eczéma dyshidrosique",
+          "correct": false
+        }
+      ],
+      "explanation": "Kératolyse Ponctuée: Cette condition se caractérise par des pits de 1-3 mm sur la couche cornée, des érosions irrégulières, une texture cutanée visqueuse et une odeur désagréable des pieds. Elle touche fréquemment les zones de pression et est courante chez les personnes exposant leurs pieds à des environnements humides ou transpirants.",
+      "source": "Pan African Medical Journal, 2023",
+      "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/11/32/full/"
+    },
+    {
+      "id": 2,
+      "date": "28 Octobre 2024",
+      "images": [
+        {
+          "url": "/images/plaque.webp",
+          "alt": "photo",
+          "width": 561,
+          "height": 580
+        }
+      ],
+      "description": "Un patient masculin de 52 ans consulte pour des plaques érythémateuses avec desquamation, rougeur et démangeaisons sur les membres supérieurs depuis 4 ans. Les antécédents médicaux révèlent un diabète et une hypertension. L’examen clinique met en évidence des lésions cutanées bien délimitées, rougeatres, présentant une desquamation blanchâtre, localisées principalement sur les surfaces d’extension des membres supérieurs.",
+      "question": "Quel est le diagnostic le plus probable ?",
+      "choices": [
+        {
+          "text": "Eczéma",
+          "correct": false
+        },
+        {
+          "text": "Psoriasis Vulgaris",
+          "correct": true
+        },
+        {
+          "text": "Lichen plan",
+          "correct": false
+        },
+        {
+          "text": "Dermatite séborrhéique",
+          "correct": false
+        },
+        {
+          "text": "Lupus érythémateux",
+          "correct": false
+        }
+      ],
+      "explanation": "Les caractéristiques cliniques correspondent typiquement au psoriasis : plaques érythémateuses bien délimitées, desquamation, localisation sur surfaces d’extension, et association à des comorbidités.",
+      "source": "Pan African Medical Journal, 2023",
+      "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/11/35/full/"
+    },
+    {
+      "id": 3,
+      "date": "4 Novembre 2024",
+      "images": [
+        {
+          "url": "/images/skin-tumor.webp",
+          "alt": "photographe",
+          "width": 561,
+          "height": 580
+        }
+      ],
+      "description": "Un homme de 43 ans, consulte à l’hôpital pour une masse noire sur le dos de sa main gauche, évoluant depuis 6 mois. La lésion, initialement petite, a rapidement progressé et présente des saignements spontanés. L’examen révèle une tumeur exophytique de 4x3x10 cm, spongieuse et noire (Figure A), associée à une lymphadénopathie axillaire gauche visible et palpable (Figure B). Les examens complémentaires incluent une échographie Doppler montrant une tumeur très vascularisée, un scanner mettant en évidence un possible envahissement ganglionnaire et métastatique.",
+      "question": "Quel est le diagnostic principal basé sur les images et les résultats cliniques?",
+      "choices": [
+        {
+          "text": "Carcinome épidermoïde",
+          "correct": false
+        },
+        {
+          "text": "Mélanome malin",
+          "correct": true
+        },
+        {
+          "text": "Hémangiome",
+          "correct": false
+        },
+        {
+          "text": "Kyste dermoïde",
+          "correct": false
+        },
+        {
+          "text": "Sarcome cutané",
+          "correct": false
+        }
+      ],
+      "explanation": "Le tableau clinique et les résultats d’imagerie sont caractéristiques d’un mélanome malin. La présence d’une masse noire évolutive, les saignements spontanés, l’envahissement ganglionnaire et les métastases en transit confirment ce diagnostic. La biopsie et la cytologie ont formellement établi la nature maligne de la tumeur, classant cette lésion comme un mélanome malin cutané à un stade avancé.",
+      "source": "Pan African Medical Journal, 2024",
+      "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/14/38/full/"
+    },
+    {
+      "id": 4,
+      "date": "11 Novembre 2024",
+      "images": [
+        {
+          "url": "/images/pseudo.webp",
+          "alt": "FO",
+          "width": 781,
+          "height": 417
+        }
+      ],
+      "description": "Un enfant de 4 ans se présente en consultation ophtalmologique pour une déviation oculaire. L’examen retrouve une asymétrie d’acuité visuelle avec 9/10 à droite et ’compte les doigts à 0,5m’ à gauche, ainsi qu’un strabisme convergent bilatéral. L’examen du segment antérieur est normal. L’exploration du fond d’œil révèle une structure particulière sur la figure A, accompagnée d’autres anomalies sur les examens complémentaires présentés.",
+      "question": "Quelle est votre interprétation de l’anomalie observée sur la figure A?",
+      "choices": [
+        {
+          "text": "Papillite optique",
+          "correct": false
+        },
+        {
+          "text": "Pseudo-duplication du disque optique",
+          "correct": true
+        },
+        {
+          "text": "Drusen papillaire",
+          "correct": false
+        },
+        {
+          "text": "Colobome du nerf optique",
+          "correct": false
+        },
+        {
+          "text": "Hamartome astrocytaire",
+          "correct": false
+        }
+      ],
+      "explanation": "La pseudo-duplication du disque optique est une affection rare, caractérisée par une lésion circonscrite ressemblant à un disque optique avec des vaisseaux sanguins. Elle s´associe à la présence d´un nerf optique normal et parfois à un colobome.",
+      "source": "Pan African Medical Journal, 2024",
+      "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/16/8/full/"
+    },
+    {
+      "id": 5,
+      "date": "18 Novembre 2024",
+      "images": [
+        {
+          "url": "/images/hyperchol.webp",
+          "alt": "Lésions cutanées",
+          "width": 499,
+          "height": 141
+        }
+      ],
+      "description": "Une femme de 59 ans ayant des antécédents dhypertension et d’hypercholestérolémie est admise pour un infarctus du myocarde sans élévation du segment ST . Une coronarographie d’urgence révèle une occlusion quasi-totale de l’artère coronaire principale gauche et de l’artère interventriculaire antérieure, nécessitant un pontage aorto-coronarien en urgence. Une consultation dermatologique est réalisée en raison de lésions cutanées généralisées. La patiente rapporte que ces lésions ont débuté à l’âge de neuf ans et se sont aggravées avec le temps. Quatre membres de sa famille, également atteints des mêmes lésions, sont décédés dans leur vingtaine. À l’examen clinique, des xanthomes tendineux multiples sont observés sur les mains et les pieds, des xanthomes plans au niveau des espaces interdigitaux, des plaques et des papules au niveau des bras et des jambes, y compris aux plis des coudes.Le bilan lipidique montre un cholestérol total à 8.4 g/L, un LDL à 7.92 g/L et des triglycérides normaux.",
+      "question": "Quel est le diagnostic le plus probable ?",
+      "choices": [
+        {
+          "text": "Maladie de Fabry",
+          "correct": false
+        },
+        {
+          "text": "Dysbétalipoprotéinémie familiale",
+          "correct": false
+        },
+        {
+          "text": "Hypercholestérolémie familiale de type 2 homozygote",
+          "correct": true
+        },
+        {
+          "text": "Hypertriglycéridémie familiale",
+          "correct": false
+        },
+        {
+          "text": "Xanthomatose cérébro-tendineuse",
+          "correct": false
+        }
+      ],
+      "explanation": "Cette maladie génétique autosomique dominante résulte d’un défaut des récepteurs des LDL, entraînant une accumulation importante de cholestérol LDL (souvent > 800 mg/dL). Elle provoque des xanthomes tendineux, plans ou tubéreux qui apparaissent dès l’enfance. Le tableau clinique décrit — des xanthomes multiples, un cholestérol très élevé, des triglycérides normaux et des antécédents familiaux de décès prématurés — oriente vers ce diagnostic.",
+      "source": "Pan African Medical Journal, 2023",
+      "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/34/full/"
+    },
+    {
+      "id": 6,
+      "date": "25 Novembre 2024",
+      "images": [
+        {
+          "url": "/images/air-crescent-sign.webp",
+          "alt": "CT scan showing Air Crescent Sign in the left upper lobe",
+          "width": 709,
+          "height": 596
+        }
+      ],
+      "description": "Une patiente de 60 ans se présente avec de la fièvre, une toux avec expectorations, et une dyspnée d'effort depuis 20 jours. Elle a des antécédents de tuberculose pulmonaire traitée il y a 6 ans. Une radiographie thoracique révèle des changements fibreux dans les deux champs pulmonaires. Une TDM haute résolution montre une cavité dans le lobe supérieur gauche avec une masse arrondie séparée de la paroi de la cavité par un espace en croissant d'air (signe du croissant d'air).",
+      "question": "Quel est le diagnostic le plus probable ?",
+      "choices": [
+        {
+          "text": "Tuberculome",
+          "correct": false
+        },
+        {
+          "text": "Aspergillome",
+          "correct": true
+        },
+        {
+          "text": "Cancer bronchogénique",
+          "correct": false
+        },
+        {
+          "text": "Abcès pulmonaire",
+          "correct": false
+        },
+        {
+          "text": "Granulomatose éosinophilique avec polyangéite (Wegener)",
+          "correct": false
+        }
+      ],
+      "explanation": "Le signe du croissant d'air visible à la TDM est caractéristique de l'aspergillome, une infection fongique causée par des espèces d'Aspergillus. Ce diagnostic est confirmé par des tests sérologiques positifs pour *Aspergillus fumigatus* et des antécédents cliniques compatibles, comme une cavité pulmonaire préexistante après la tuberculose.",
+      "source": "Pan African Medical Journal, 2024",
+      "source_url": "https://www.panafrican-med-journal.com/content/article/48/71/full/"
+    },
+    {
+      "id": 7,
+      "date": "2 Décembre 2024",
+      "images": [
+        {
+          "url": "/images/hand-exostosis.webp",
+          "alt": "Radiographie montrant une exostose au niveau du premier métacarpien",
+          "width": 659,
+          "height": 416
+        }
+      ],
+      "description": "Un patient de 32 ans, suivi pour des excroissances ostéo-cartilagineuses multiples depuis son enfance, consulte pour une douleur chronique au niveau de la base du pouce gauche. L'examen clinique montre l'aspect dans l'image ci-dessus. La radiographie révèle une excroissance ostéo-cartilagineuse en continuité avec la corticale du premier métacarpien. L'exérèse chirurgicale et l'analyse histopathologique ont confirmé un chondrosarcome de bas grade.",
+      "question": "Quel est le diagnostic étiologique le plus probable ?",
+      "choices": [
+        {
+          "text": "Exostose solitaire",
+          "correct": false
+        },
+        {
+          "text": "Maladie des exostoses multiples (MEM)",
+          "correct": true
+        },
+        {
+          "text": "Maladie d'Ollier",
+          "correct": false
+        },
+        {
+          "text": "Métachondromatose",
+          "correct": false
+        },
+        {
+          "text": "Chondrosarcome primaire",
+          "correct": false
+        }
+      ],
+      "explanation": "La maladie des exostoses multiples (MEM) est une affection héréditaire caractérisée par des excroissances ostéo-cartilagineuses touchant la métaphyse des os longs. Le diagnostic repose sur le contexte clinique, radiologique et familial. La différenciation d'autres maladies comme la maladie d'Ollier ou la métachondromatose est essentielle.",
+      "source": "Pan African Medical Journal, 2023",
+      "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/20/full/"
+    },
+    {
+      "id": 8,
+      "date": "9 Décembre 2024",
+      "images": [
+        {
+          "url": "/images/punchout.webp",
+          "alt": "Ulcérations type punch-out",
+          "width": 659,
+          "height": 416
+        }
+      ],
+      "description": "Un adolescent de 18 ans consulte pour des symptômes inhabituels de dysphagie intermittente et de douleurs épigastriques. Afin d'élucider la cause de ces symptômes, une batterie d'examens complémentaires est réalisée. L'endoscopie digestive haute révèle des ulcérations multiples à type de \"punch out\" au niveau de l'œsophage moyen. Les recherches infectieuses sont systématiquement effectuées, incluant des tests de Ziehl-Nielsen, une PCR tuberculose, une sérologie VIH et des immunohistochimies pour le CMV et l'HSV, tous revenus négatifs. L'iléo-coloscopie et l'IRM entéro-scanner ne montrent aucune anomalie significative. Les biopsies œsophagiennes mettent en évidence des érosions avec des granulomes épithélioïdes sans nécrose centrale.",
+      "question": "Quel est le diagnostic étiologique le plus probable ?",
+      "choices": [
+        {
+          "text": "Reflux gastro-œsophagien",
+          "correct": false
+        },
+        {
+          "text": "Maladie de Crohn œsophagienne",
+          "correct": true
+        },
+        {
+          "text": "Carcinome œsophagien",
+          "correct": false
+        },
+        {
+          "text": "Maladie de Behçet",
+          "correct": false
+        },
+        {
+          "text": "Tuberculose œsophagienne",
+          "correct": false
+        }
+      ],
+      "explanation": "Maladie de Crohn œsophagienne. Ce diagnostic a été retenu après avoir éliminé méthodiquement les autres pathologies par un faisceau d'arguments cliniques, endoscopiques et histologiques. Les ulcérations caractéristiques en \"punch out\", l'absence de signes infectieux ou tumoraux, et la présence de granulomes à l'histologie sont des éléments très évocateurs. Cette localisation œsophagienne isolée est exceptionnelle, représentant moins de 2% des cas de maladie de Crohn, ce qui rend ce cas particulièrement intéressant sur le plan diagnostique et sémiologique.",
+      "source": "European Journal of Case Reports in Internal Medecine, 2024",
+      "source_url": "https://www.ejcrim.com/index.php/EJCRIM/article/view/4926"
+    },
+    {
+      "id": 9,
+      "date": "16 Décembre 2024",
+      "images": [
+        {
+          "url": "/images/parotide.webp",
+          "alt": "Tumeur du parotide",
+          "width": 800,
+          "height": 600
+        }
+      ],
+      "description": "Une patiente de 68 ans, sans antécédents médicaux notables, consulte pour une tumeur indolore du côté droit du visage, évoluant progressivement depuis plus de 20 ans. L'examen clinique révèle une masse parotidienne de 10 cm sur 15 cm, de consistance ferme, mobile et sans adhérence aux structures adjacentes. Malgré sa taille importante, la peau sus-jacente apparaît normale, sans signe de paralysie faciale ni adénopathie cervicale. Un scanner (B) et un bilan préopératoire sont réalisés.",
+      "question": "Quel est le diagnostic le plus probable?",
+      "choices": [
+        {
+          "text": "Carcinome épidermoïde",
+          "correct": false
+        },
+        {
+          "text": "Adénome pléomorphe",
+          "correct": true
+        },
+        {
+          "text": "Lymphome parotidien",
+          "correct": false
+        },
+        {
+          "text": "Tumeur de Warthin",
+          "correct": false
+        },
+        {
+          "text": "Kyste épidermoïde",
+          "correct": false
+        }
+      ],
+      "explanation": "Les caractéristiques cliniques et histologiques sont typiques : tumeur volumineuse, évoluant lentement depuis de nombreuses années, mobile, indolore, sans signes de malignité. L'analyse histologique post-chirurgicale a confirmé la nature bénigne de cette tumeur, classique des adénomes pléomorphes des glandes salivaires, qui représentent la tumeur parotidienne la plus fréquente.",
+      "source": "Pan African Medical Journal, 2023",
+      "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/8/full/"
+    },
+    {
+      "id": 10,
+      "date": "30 Décembre 2024",
+      "images": [
+        {
+          "url": "/images/adherences.webp",
+          "alt": "Adhérences",
+          "width": 2640,
+          "height": 1068
+        }
+      ],
+      "description": "Une femme de 62 ans consulte pour des douleurs abdominales intermittentes de l'hypochondre droit évoluant depuis 3 mois. Dans ses antécédents récents, on note une infection génitale haute traitée par antibiotiques 4 mois auparavant. L'examen clinique retrouve une sensibilité modérée de l'hypochondre droit. Le bilan biologique est normal. L'échographie abdominale montre une lithiase vésiculaire. Lors de la laparoscopie, on découvre des adhérences denses caractéristiques entre la face antéro-supérieure du foie et la paroi abdominale.",
+      "question": "Quel est le diagnostic le plus probable devant ces constatations peropératoires?",
+      "choices": [
+        {
+          "text": "Périhépatite post-chirurgicale",
+          "correct": false
+        },
+        {
+          "text": "Syndrome de Fitz-Hugh-Curtis",
+          "correct": true
+        },
+        {
+          "text": "Tuberculose péritonéale",
+          "correct": false
+        },
+        {
+          "text": "Carcinose péritonéale",
+          "correct": false
+        },
+        {
+          "text": "Cholécystite chronique",
+          "correct": false
+        }
+      ],
+      "explanation": "L'association d'une infection génitale haute récente avec la découverte peropératoire d'adhérences hépatiques caractéristiques 'en cordes de violon' est typique de ce syndrome. Il s'agit d'une périhépatite associée à une infection génitale haute, dont le diagnostic est souvent fortuit lors d'une chirurgie abdominale. La résolution des symptômes après l'adhésiolyse confirme ce diagnostic.",
+      "source": "New England Journal of Medecine, 2019",
+      "source_url": "https://www.nejm.org/doi/10.1056/NEJMicm1813625"
+    },
+    {
+      "id": 11,
+      "date": "13 Janvier 2025",
+      "images": [
+        {
+          "url": "/images/nosemalformation.webp",
+          "alt": "Adhérences",
+          "width": 526,
+          "height": 422
+        }
+      ],
+      "description": "Un enfant de 3 ans est amené en consultation de chirurgie plastique par ses parents pour une anomalie nasale présente depuis la naissance. L'examen clinique révèle une structure anormale au niveau de la partie supéro-latérale de la cavité nasale gauche, associée à une hypoplasie de cette dernière. Aucune autre malformation congénitale n'est notée lors de l'examen physique complet.",
+      "question": "Quel est le diagnostic de cette malformation congénitale rare?",
+      "choices": [
+        {
+          "text": "Narine surnuméraire",
+          "correct": true
+        },
+        {
+          "text": "Fistule nasale congénitale",
+          "correct": false
+        },
+        {
+          "text": "Kyster dermoide nasale",
+          "correct": false
+        },
+        {
+          "text": "Fente nasale latérale",
+          "correct": false
+        },
+        {
+          "text": "Sinus péricranien",
+          "correct": false
+        }
+      ],
+      "explanation": "Il s'agit d'une malformation congénitale extrêmement rare résultant d'un développement embryologique atypique. La présentation clinique est caractéristique avec une narine accessoire naissant de la partie supéro-latérale de la cavité nasale, pouvant communiquer avec la cavité nasale principale ou se terminer en cul-de-sac. Le traitement est exclusivement chirurgical avec excision complète du trajet, permettant un bon résultat fonctionnel et esthétique",
+      "source": "Pan African Medical Journal, 2023",
+      "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/content/article/13/33/full/"
+    },
+    {
+      "id": 12,
+      "date": "27 Janvier 2025",
+      "images": [
+        {
+          "url": "/images/ppgg.webp",
+          "alt": "Lésions pustuleuses généralisées et atteinte muqueuse",
+          "width": 522,
+          "height": 563
+        }
+      ],
+      "description": "Primigeste de 31 ans sans antécédents, consulte pour une éruption cutanée aiguë apparue au 3ème trimestre de grossesse : multiples pustules aseptiques sur plaques érythémateuses, avec confluence en vastes placards et atteinte muqueuse buccale. Bilan biologique : absence d'hypocalcémie ou de dysthyroïdie. Le nouveau-né présente une malformation rachidienne ouverte avec hernie méningée confirmée par imagerie, malgré une supplémentation pergravidique en acide folique. Aucun antécédent familial de dysraphisme.",
+      "question": "Quel est le diagnostic maternel le plus probable ?",
+      "choices": [
+        {
+          "text": "Pemphigoïde gravidique",
+          "correct": false
+        },
+        {
+          "text": "Dermatose neutrophilique aiguë fébrile",
+          "correct": false
+        },
+        {
+          "text": "Psoriasis pustuleux généralisé de la grossesse",
+          "correct": true
+        },
+        {
+          "text": "Syndrome de Sweet",
+          "correct": false
+        },
+        {
+          "text": "Éruption médicamenteuse",
+          "correct": false
+        }
+      ],
+      "explanation": "Le PPGG se caractérise par des poussées de pustules stériles sur fond érythémateux avec atteinte muqueuse possible, survenant principalement au 3ème trimestre. Bien qu'aucune hypocalcémie ne soit présente ici (contrairement à 30% des cas), l'association avec une malformation neurale du fœtus (rare mais décrite) et la réponse aux dermocorticoïdes forts orientent vers ce diagnostic. L'histologie typique montre des pustules sous-cornées avec acantholyse des kératinocytes.",
+      "source": "Pan African Medical Journal, 2024",
+      "source_url": "https://www.clinical-medicine.panafrican-med-journal.com/images-in-medicine/ViewImage.php?ImageId=1039"
+    }
+  ]
 }

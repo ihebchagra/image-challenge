@@ -1,35 +1,34 @@
 function defineComponent(name, template, styles) {
-    customElements.define(
-        name,
-        class extends HTMLElement {
-            connectedCallback() {
-                const root = this.attachShadow({ mode: "closed" });
-                root.innerHTML = `<style>${styles}</style>${template}`;
-                Alpine.initTree(root);
-
-            }
-        }
-    );
+  customElements.define(
+    name,
+    class extends HTMLElement {
+      connectedCallback() {
+        const root = this.attachShadow({ mode: "closed" });
+        root.innerHTML = `<style>${styles}</style>${template}`;
+        Alpine.initTree(root);
+      }
+    },
+  );
 }
 
 defineComponent(
-    "custom-button",
-    /*html*/`<button><slot /></button>`,
-    /*css*/`button {
+  "custom-button",
+  /*html*/ `<button><slot /></button>`,
+  /*css*/ `button {
         background-color: rgb(245 158 11);
         color: rgb(255 255 255);
         border-radius: 0.5rem;
         box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
         padding: 1rem;
-    }`
+    }`,
 );
 
 defineComponent(
-    "image-grid",
-    /*html*/`<div class="grid">
+  "image-grid",
+  /*html*/ `<div class="grid">
         <slot />
     </div>`,
-    /*css*/`.grid {
+  /*css*/ `.grid {
         display: flex;
         flex-direction: column;
         margin-left: auto;
@@ -39,7 +38,7 @@ defineComponent(
         align-items: center;
         gap: 0.5rem;
     }
-    
+
     @media (min-width: 768px) {
         .grid {
             flex-direction: row;
@@ -47,35 +46,35 @@ defineComponent(
             justify-content: center;
             margin: 1rem;
         }
-        
+
         ::slotted(img) {
             flex: 0 1 auto;
 
         }
     }
-    
+
     ::slotted(img) {
         background-color: rgb(243 244 246);
         max-width: 100%;
         height: auto;
-    }`
+    }`,
 );
 
 defineComponent(
-    "site-footer",
-    /*html*/`
+  "site-footer",
+  /*html*/ `
     <footer class="footer">
             <div class="footer-content">
-                <p class="copyright">© 2024 Iheb Chagra. Tous droits réservés.</p>
+                <p class="copyright">© ${new Date().getFullYear()} Iheb Chagra. Tous droits réservés.</p>
                 <p class="license">Licence GNU General Public License v3.0</p>
                 <p>Ce site est Open-Source sur <a href="https://github.com/ihebchagra/image-challenge">Github</a></p>
                 <div class="contact-info">
                     <p>Contact: <a href="mailto:ihebchagra@gmail.com">ihebchagra@gmail.com</a></p>
-                    <p>Médecin Résident en Microbiologie, Hôpitaux de Tunisie</p>              
+                    <p>Médecin Résident en Microbiologie, Hôpitaux de Tunisie</p>
               </div>
             </div>
         </footer>`,
-    /*css*/`
+  /*css*/ `
     .footer {
         font-family: 'EB Garamond', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         margin-top: 4rem;
@@ -83,41 +82,41 @@ defineComponent(
         background-color: #F3F4F6;
         border-top: 1px solid #E5E7EB;
     }
-    
+
     .footer-content {
         max-width: 65ch;
         margin: 0 auto;
         text-align: center;
     }
-    
+
     .footer p {
         margin: 0.5rem 0;
         font-size: 0.875rem;
         color: #4B5563;
     }
-    
+
     .footer a {
         color: #000;
         text-decoration: none;
     }
-    
+
     .footer a:hover {
         text-decoration: underline;
     }
-    
+
     .copyright {
         font-weight: bold;
     }
-    
+
     .contact-info {
         margin-top: 1rem;
     }
-    `
+    `,
 );
 
 defineComponent(
-    "multiple-choice",
-    /*html*/`
+  "multiple-choice",
+  /*html*/ `
     <div class="choices-container" x-data="{
         selectedAnswer: null,
         submitted: false,
@@ -174,7 +173,7 @@ defineComponent(
             </template>
         </div>
     </div>`,
-    /*css*/`
+  /*css*/ `
     .choices-container {
         max-width: 65ch;
         margin: 1.5rem auto;
@@ -327,13 +326,13 @@ defineComponent(
 
     .source a:hover {
         background-color: #f0f0f0;
-    }`
+    }`,
 );
 
 defineComponent(
-    "nav-button",
-    /*html*/`<button hx-get="" hx-push-url="true" hx-target="#content"><slot /></button>`,
-    /*css*/`button {
+  "nav-button",
+  /*html*/ `<button hx-get="" hx-push-url="true" hx-target="#content"><slot /></button>`,
+  /*css*/ `button {
         background-color: #000;
         color: white;
         border: 1.5px solid #000;
@@ -344,21 +343,21 @@ defineComponent(
         font-size: 0.9rem;
         transition: all 0.2s;
     }
-    
+
     button:hover {
         background-color: white;
         color: #000;
-    }`
+    }`,
 );
 
 defineComponent(
-    "other-quizzes",
-    /*html*/`
+  "other-quizzes",
+  /*html*/ `
     <div class="other-quizzes">
         <h2>Autres Quiz</h2>
         <slot />
     </div>`,
-    /*css*/`
+  /*css*/ `
     .other-quizzes {
         max-width: 65ch;
         margin: 1.5rem auto;
@@ -401,5 +400,5 @@ defineComponent(
 
     .quiz-box a:hover {
         background-color: #f0f0f0;
-    }`
+    }`,
 );
